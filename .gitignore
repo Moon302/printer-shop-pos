@@ -1,0 +1,25 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+tmp/
+cache/
+
+# Backups
+*.bak
+*.old
+*.zip
+*.sql.gz
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
